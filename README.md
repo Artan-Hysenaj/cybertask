@@ -1,3 +1,10 @@
+### READ ME
+
+We are using the [dummyJSON](https://dummyjson.com/) api to simulate a phone book api since we couldn't find any that fits our need.
+Create and update do not change anything on the server which is a dummyJSON api limitation, we are going around this by still making the 
+request to create or update but we optimistically update the app state in order to fake the functionality.
+
+
 ## Installation
 
 1. Clone the repository
